@@ -11,7 +11,6 @@ const container  = document.querySelector('#container');
                 for (let x = 0; x < columns; x++){
                     const columns1 = document.querySelector('.columns'+[i]);
                     const squares1 = document.createElement('div');
-                    squares1.classList.add(`columns1`+[x]);
                     squares1.setAttribute('style', 'background: white');
                     columns1.appendChild(squares1);
                     

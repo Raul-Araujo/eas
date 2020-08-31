@@ -15,12 +15,16 @@ const container  = document.querySelector('#container');
                 }
         }   
     }
-creatingSquares(10); //The above function creates the square.
+creatingSquares(15); //The above function creates the square.
+const divs = document.querySelectorAll('div');
 
+//function to refresh the squares` color
+function refreshing(){
+    divs.forEach(div => div.style.background = 'white');
+}
 
 
 //making the squares colored
-const divs = document.querySelectorAll('div');
 
 divs.forEach(div => div.addEventListener('mouseover', function (e){
     e.target.style.background = 'blue';

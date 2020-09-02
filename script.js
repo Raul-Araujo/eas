@@ -15,8 +15,20 @@ const container  = document.querySelector('#container');
                 }
         }   
     }
-creatingSquares(15); //The above function creates the square.
+creatingSquares(13); //The above function creates the square.
 const divs = document.querySelectorAll('div');
+
+function smallOption(){
+    divs.forEach(div => div.style = 'height:32px; width: 32px');
+
+}
+function mediumOption(){
+    divs.forEach(div => div.style = 'height:16px; width: 16px');
+}
+
+function largeOption(){
+    divs.forEach(div => div.style = 'height:8px; width: 8px');
+}
 
 //function to refresh the squares` color
 function refreshing(){

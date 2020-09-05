@@ -18,7 +18,7 @@ const container  = document.querySelector('#container');
 creatingSquares(100); //The above function creates the square.
 const divs = document.querySelectorAll('div');
 
-function smallOption(){
+function largeOption(){
     divs.forEach(div => div.style = 'height:32px; width: 32px');
 
 }
@@ -26,7 +26,7 @@ function mediumOption(){
     divs.forEach(div => div.style = 'height:16px; width: 16px');
 }
 
-function largeOption(){
+function smallOption(){
     divs.forEach(div => div.style = 'height:8px; width: 8px');
 }
 

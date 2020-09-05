@@ -10,12 +10,12 @@ const container  = document.querySelector('#container');
                 for (let x = 0; x < columns; x++){
                     const columns1 = document.querySelector('.columns'+[i]);
                     const squares1 = document.createElement('div');
-                    columns1.appendChild(squares1);
+                    squares.appendChild(squares1);
                     
                 }
         }   
     }
-creatingSquares(13); //The above function creates the square.
+creatingSquares(100); //The above function creates the square.
 const divs = document.querySelectorAll('div');
 
 function smallOption(){
